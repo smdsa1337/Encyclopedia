@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smdsa.encyclopedia">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconofapp"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/iconofapp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Encyclopedia">
+        <activity
+            android:name=".InternetClass"
+            android:exported="false" />
+        <activity
+            android:name=".MicrophoneClass"
+            android:exported="false" />
+        <activity
+            android:name=".WorkWithTXT"
+            android:exported="false" />
+        <activity
+            android:name=".RealTimeDB.WriteClass"
+            android:exported="false" />
+        <activity
+            android:name=".RealTimeDB.ReadClass"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationClass"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationClass"
+            android:exported="false" />
+        <activity
+            android:name=".ToastClass"
+            android:exported="false" />
+        <activity
+            android:name=".Clicker"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

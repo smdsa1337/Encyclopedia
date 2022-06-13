@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "820185288194",
+    "firebase_url": "https://micro-chel-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "micro-chel",
+    "storage_bucket": "micro-chel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820185288194:android:a3d7fc3d48a234dac4e11b",
+        "android_client_info": {
+          "package_name": "com.smdsa.encyclopedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820185288194-r5soqq4k8elbq4hj44e5l44j427sbtqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy5FjZ1f003anqJSXJMQwI3XMH1BV9QUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820185288194-r5soqq4k8elbq4hj44e5l44j427sbtqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820185288194:android:3f9b8d374aa3c538c4e11b",
+        "android_client_info": {
+          "package_name": "com.smdsa.microChelik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820185288194-r5soqq4k8elbq4hj44e5l44j427sbtqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy5FjZ1f003anqJSXJMQwI3XMH1BV9QUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820185288194-r5soqq4k8elbq4hj44e5l44j427sbtqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
